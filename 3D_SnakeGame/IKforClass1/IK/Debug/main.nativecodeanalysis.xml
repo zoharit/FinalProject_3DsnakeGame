@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\display\</FILEPATH>
+      <FILENAME>display.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Display::isFullScreen' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Display::{ctor}</FUNCTION>
+    <DECORATED>??0Display@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\display\</FILEPATH>
+      <FILENAME>display.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Display::m_window' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Display::{ctor}</FUNCTION>
+    <DECORATED>??0Display@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\display\</FILEPATH>
+      <FILENAME>display.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Display::error' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Display::{ctor}</FUNCTION>
+    <DECORATED>??0Display@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_half.inl</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::uif32::{ctor}</FUNCTION>
+    <DECORATED>??0uif32@detail@glm@@QAE@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>shader.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Shader::m_shaders' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Shader::{ctor}</FUNCTION>
+    <DECORATED>??0Shader@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>shader.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Shader::m_program' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Shader::{ctor}</FUNCTION>
+    <DECORATED>??0Shader@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>shader.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Shader::m_uniforms' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Shader::{ctor}</FUNCTION>
+    <DECORATED>??0Shader@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>obj_loader.h</FILENAME>
+      <LINE>278</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>makeQ</FUNCTION>
+    <DECORATED>?makeQ@@YA?AU?$tmat4x4@N$0A@@detail@glm@@ABUPlane@@@Z</DECORATED>
+    <FUNCLINE>273</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>mesh.h</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Mesh::m_vertexArrayBuffers' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Mesh::{ctor}</FUNCTION>
+    <DECORATED>??0Mesh@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>mesh.h</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Mesh::m_vertexArrayObject' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Mesh::{ctor}</FUNCTION>
+    <DECORATED>??0Mesh@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>mesh.h</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Mesh::m_numIndices' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Mesh::{ctor}</FUNCTION>
+    <DECORATED>??0Mesh@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>linemesh.h</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'LineMesh::m_vertexArrayBuffers' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>LineMesh::{ctor}</FUNCTION>
+    <DECORATED>??0LineMesh@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>47</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>linemesh.h</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'LineMesh::m_numIndices' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>LineMesh::{ctor}</FUNCTION>
+    <DECORATED>??0LineMesh@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>47</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>linemesh.h</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'LineMesh::m_vertexArrayObject' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>LineMesh::{ctor}</FUNCTION>
+    <DECORATED>??0LineMesh@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>47</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\engine3d\</FILEPATH>
+      <FILENAME>texture.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Texture::m_texture' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Texture::{ctor}</FUNCTION>
+    <DECORATED>??0Texture@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>128</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVec2::{ctor}</FUNCTION>
+    <DECORATED>??0ImVec2@@QAE@XZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>140</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVec4::{ctor}</FUNCTION>
+    <DECORATED>??0ImVec4@@QAE@XZ</DECORATED>
+    <FUNCLINE>140</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1290</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImGuiOnceUponAFrame::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiOnceUponAFrame@@QAE@XZ</DECORATED>
+    <FUNCLINE>1290</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1308</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImGuiTextFilter::TextRange::{ctor}</FUNCTION>
+    <DECORATED>??0TextRange@ImGuiTextFilter@@QAE@XZ</DECORATED>
+    <FUNCLINE>1308</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1336</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImGuiTextBuffer::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiTextBuffer@@QAE@XZ</DECORATED>
+    <FUNCLINE>1336</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1363</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IH@Z</DECORATED>
+    <FUNCLINE>1363</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1363</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_f' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IH@Z</DECORATED>
+    <FUNCLINE>1363</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1364</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IM@Z</DECORATED>
+    <FUNCLINE>1364</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1364</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_i' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IM@Z</DECORATED>
+    <FUNCLINE>1364</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1365</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_f' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IPAX@Z</DECORATED>
+    <FUNCLINE>1365</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1365</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_i' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IPAX@Z</DECORATED>
+    <FUNCLINE>1365</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::DataType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::DataFrameCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::SourceId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::SourceParentId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::DataSize' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::Delivery' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::Preview' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::Data' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1485</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImColor::{ctor}</FUNCTION>
+    <DECORATED>??0ImColor@@QAE@XZ</DECORATED>
+    <FUNCLINE>1485</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::ItemsCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::DisplayStart' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::DisplayEnd' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::StepNo' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::StartPosY' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::ItemsHeight' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1548</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImDrawCmd::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawCmd@@QAE@XZ</DECORATED>
+    <FUNCLINE>1548</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::Flags' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::_VtxCurrentIdx' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::_VtxWritePtr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::_IdxWritePtr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::_ChannelsCurrent' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::_ChannelsCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1708</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImDrawData::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1708</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1708</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawData::TotalVtxCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawData::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1708</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1708</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawData::CmdListsCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawData::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1708</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1708</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawData::CmdLists' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawData::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1708</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1708</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawData::TotalIdxCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawData::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1708</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1807</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImFontAtlas::GlyphRangesBuilder::{ctor}</FUNCTION>
+    <DECORATED>??0GlyphRangesBuilder@ImFontAtlas@@QAE@XZ</DECORATED>
+    <FUNCLINE>1807</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1830</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImFontAtlas::CustomRect::{ctor}</FUNCTION>
+    <DECORATED>??0CustomRect@ImFontAtlas@@QAE@XZ</DECORATED>
+    <FUNCLINE>1830</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\irrklang\</FILEPATH>
+      <FILENAME>ik_irefcounted.h</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>irrklang::IRefCounted::{ctor}</FUNCTION>
+    <DECORATED>??0IRefCounted@irrklang@@QAE@XZ</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>354</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>Non-integer passed as _Param_(2) when an integer is required in call to 'printf' Actual type: 'float':  if a pointer value is being passed, %p should be used.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;unsigned char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@E@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;ImDrawChannel&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@UImDrawChannel@@@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;ImVec2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@UImVec2@@@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;void *&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@PAX@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;ImVec4&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@UImVec4@@@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;ImDrawVert&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@UImDrawVert@@@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;unsigned short&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@G@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;ImDrawCmd&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@UImDrawCmd@@@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@D@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec2&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec2@M$0A@@detail@glm@@QAE@XZ</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec3&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@M$0A@@detail@glm@@QAE@XZ</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_mat4x4.inl</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tmat4x4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tmat4x4@M$0A@@detail@glm@@QAE@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_mat4x4.inl</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tmat4x4&lt;double,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tmat4x4@N$0A@@detail@glm@@QAE@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec1.inl</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec1&lt;bool,2&gt;::&lt;unnamed-tag&gt;::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec1&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec1@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec1.inl</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec1&lt;bool,2&gt;::&lt;unnamed-tag&gt;::s' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec1&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec1@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec1.inl</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec1&lt;bool,2&gt;::&lt;unnamed-tag&gt;::r' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec1&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec1@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec2&lt;bool,2&gt;::&lt;unnamed-tag&gt;::t' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec2&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec2@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>92</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec2&lt;bool,2&gt;::&lt;unnamed-tag&gt;::g' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec2&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec2@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>92</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec2&lt;bool,2&gt;::&lt;unnamed-tag&gt;::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec2&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec2@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>92</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec2&lt;bool,2&gt;::&lt;unnamed-tag&gt;::r' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec2&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec2@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>92</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec2&lt;bool,2&gt;::&lt;unnamed-tag&gt;::s' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec2&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec2@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>92</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec2&lt;bool,2&gt;::&lt;unnamed-tag&gt;::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec2&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec2@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>92</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec3&lt;bool,2&gt;::&lt;unnamed-tag&gt;::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec3&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec3&lt;bool,2&gt;::&lt;unnamed-tag&gt;::r' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec3&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec3&lt;bool,2&gt;::&lt;unnamed-tag&gt;::s' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec3&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec3&lt;bool,2&gt;::&lt;unnamed-tag&gt;::g' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec3&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec3&lt;bool,2&gt;::&lt;unnamed-tag&gt;::t' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec3&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec3&lt;bool,2&gt;::&lt;unnamed-tag&gt;::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec3&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec3&lt;bool,2&gt;::&lt;unnamed-tag&gt;::p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec3&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec3&lt;bool,2&gt;::&lt;unnamed-tag&gt;::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec3&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec3&lt;bool,2&gt;::&lt;unnamed-tag&gt;::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec3&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec3@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@M$0A@@detail@glm@@QAE@XZ</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;double,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@N$0A@@detail@glm@@QAE@XZ</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::s' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::r' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::g' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::t' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::w' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::a' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'glm::detail::tvec4&lt;bool,2&gt;::&lt;unnamed-tag&gt;::q' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>glm::detail::tvec4&lt;bool,2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$tvec4@_N$01@detail@glm@@QAE@W4ctor@012@@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

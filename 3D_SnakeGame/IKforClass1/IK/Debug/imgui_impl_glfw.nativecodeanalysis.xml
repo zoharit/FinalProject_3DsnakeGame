@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>128</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVec2::{ctor}</FUNCTION>
+    <DECORATED>??0ImVec2@@QAE@XZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>140</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVec4::{ctor}</FUNCTION>
+    <DECORATED>??0ImVec4@@QAE@XZ</DECORATED>
+    <FUNCLINE>140</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1290</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImGuiOnceUponAFrame::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiOnceUponAFrame@@QAE@XZ</DECORATED>
+    <FUNCLINE>1290</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1308</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImGuiTextFilter::TextRange::{ctor}</FUNCTION>
+    <DECORATED>??0TextRange@ImGuiTextFilter@@QAE@XZ</DECORATED>
+    <FUNCLINE>1308</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1336</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImGuiTextBuffer::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiTextBuffer@@QAE@XZ</DECORATED>
+    <FUNCLINE>1336</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1363</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_f' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IH@Z</DECORATED>
+    <FUNCLINE>1363</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1363</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IH@Z</DECORATED>
+    <FUNCLINE>1363</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1364</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_i' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IM@Z</DECORATED>
+    <FUNCLINE>1364</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1364</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IM@Z</DECORATED>
+    <FUNCLINE>1364</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1365</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_i' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IPAX@Z</DECORATED>
+    <FUNCLINE>1365</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1365</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::Pair::&lt;unnamed-tag&gt;::val_f' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::Pair::{ctor}</FUNCTION>
+    <DECORATED>??0Pair@ImGuiStorage@@QAE@IPAX@Z</DECORATED>
+    <FUNCLINE>1365</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::DataType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::DataFrameCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::SourceId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::SourceParentId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::DataSize' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::Delivery' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::Preview' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1451</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiPayload::Data' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiPayload::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiPayload@@QAE@XZ</DECORATED>
+    <FUNCLINE>1451</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1485</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImColor::{ctor}</FUNCTION>
+    <DECORATED>??0ImColor@@QAE@XZ</DECORATED>
+    <FUNCLINE>1485</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::StepNo' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::DisplayStart' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::DisplayEnd' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::ItemsHeight' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::StartPosY' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiListClipper::ItemsCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiListClipper::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiListClipper@@QAE@HM@Z</DECORATED>
+    <FUNCLINE>1520</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1548</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImDrawCmd::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawCmd@@QAE@XZ</DECORATED>
+    <FUNCLINE>1548</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::Flags' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::_VtxCurrentIdx' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::_VtxWritePtr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::_IdxWritePtr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::_ChannelsCurrent' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1627</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawList::_ChannelsCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawList::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawList@@QAE@PBUImDrawListSharedData@@@Z</DECORATED>
+    <FUNCLINE>1627</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1708</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImDrawData::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1708</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1708</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawData::TotalVtxCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawData::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1708</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1708</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawData::CmdListsCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawData::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1708</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1708</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawData::CmdLists' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawData::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1708</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1708</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawData::TotalIdxCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawData::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1708</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1807</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImFontAtlas::GlyphRangesBuilder::{ctor}</FUNCTION>
+    <DECORATED>??0GlyphRangesBuilder@ImFontAtlas@@QAE@XZ</DECORATED>
+    <FUNCLINE>1807</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1830</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImFontAtlas::CustomRect::{ctor}</FUNCTION>
+    <DECORATED>??0CustomRect@ImFontAtlas@@QAE@XZ</DECORATED>
+    <FUNCLINE>1830</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;unsigned char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@E@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;ImDrawChannel&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@UImDrawChannel@@@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;ImVec2&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@UImVec2@@@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;void *&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@PAX@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;ImVec4&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@UImVec4@@@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;ImDrawVert&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@UImDrawVert@@@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;unsigned short&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@G@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;ImDrawCmd&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@UImDrawCmd@@@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\zohar\desktop\or hahamud\ikforclass1\ik\res\includes\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1226</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ImVector&lt;char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ImVector@D@@QAE@XZ</DECORATED>
+    <FUNCLINE>1226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
